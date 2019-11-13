@@ -1,11 +1,15 @@
 # ColorByNumber-iOS
 Color by Number: a pixel coloring game on iOS. 
 
-One of the most popular games on iOS in the last 2 years. I created the code about 1 year ago and decided to open source it.
+One of the most popular game on iOS in the last 2 years. I wrote the code about 1 year ago and decided to open source it.
 
 ## Screenshots
 
 ![alt text](https://i.imgur.com/WkheoG2.png)
+
+## Example:
+https://apps.apple.com/us/app/color-by-number-coloring-game/id1317978215
+
 
 ## Tools & Programming Language
 The game is made on Spritekit and Swift 4.2
