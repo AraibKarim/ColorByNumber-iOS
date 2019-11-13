@@ -12,7 +12,7 @@ https://apps.apple.com/us/app/color-by-number-coloring-game/id1317978215
 
 
 ## Tools & Programming Language
-The game is made on Spritekit and Swift 4.2
+Spritekit and Swift 4.2
 
 ## How does it work?
 
