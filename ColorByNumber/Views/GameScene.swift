@@ -436,6 +436,7 @@ class GameScene: SKScene, DemoCameraOnChange {
         let colorPixel =  gridAT(column: col, row: row)
         
         if(!self.gameViewController.isFill_Selected){
+            self.gameViewController.isFill_Selected = false
             if(colorPixel?.currentState ==  ColorPixel_Constants.STATE_DRAWN_CorrectColor){
                 
             }else{
