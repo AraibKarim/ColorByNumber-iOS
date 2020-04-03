@@ -32,6 +32,10 @@ Just download the project and run it in Xcode.
 
 iOS 11.0 and above.
 
+## How to create a JSON file after drawing with Piskel
+
+Follow the wiki: https://github.com/AraibKarim/ColorByNumber-iOS/wiki/How-to-convert-Piskel-files-(.c-files)-into-json-for-usage-in-the-source-code%3F
+
 ## Issues & Questions
 
 Please let me know if there are some issues.
