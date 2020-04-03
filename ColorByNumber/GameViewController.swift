@@ -51,10 +51,12 @@ class GameViewController: UIViewController, UIGestureRecognizerDelegate, UITable
             //no more fills remain
         }else {
             isFillButton_Selected = true
+            isFill_Selected = true
             fillButton.setBackgroundImage(UIImage.init(named: "fill_selected"), for: UIControlState.normal)
         }
         
     }
+   
     
     func UseFill () -> Bool{
         if(numberOfFills == 0){
@@ -63,9 +65,12 @@ class GameViewController: UIViewController, UIGestureRecognizerDelegate, UITable
             numberOfFills =  numberOfFills - 1
             numberOfFill_Label.text = "\(numberOfFills)"
             setNumberOfFills()
+            fillButton.setBackgroundImage(UIImage.init(named: "fill"), for: UIControlState.normal)
+            
             if(numberOfFills == 0){
                 fillButton.setBackgroundImage(UIImage.init(named: "fill_empty"), for: UIControlState.normal)
             }
+            
             return true
         }
     }
